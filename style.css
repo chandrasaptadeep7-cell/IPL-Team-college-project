@@ -1,0 +1,157 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    color:white;
+}
+
+/* Navigation Bar */
+nav{
+    text-align:center;
+    padding:18px;
+    background: rgba(0,0,0,0.2);
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:gold;
+}
+
+/* Container */
+.container{
+    width:80%;
+    margin:40px auto;
+    background:white;
+    color:black;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 5px 25px rgba(0,0,0,0.3);
+}
+
+/* Team Logo */
+.team-logo{
+    width:140px;
+    margin-bottom:20px;
+    transition:0.4s;
+}
+
+.team-logo:hover{
+    transform:scale(1.1);
+}
+
+/* Headings */
+h1{
+    margin-bottom:15px;
+    font-size:40px;
+}
+
+h3{
+    margin-bottom:20px;
+}
+
+/* Player list */
+ul{
+    list-style:none;
+}
+
+ul li{
+    background:#f4f4f4;
+    margin:12px 0;
+    padding:14px;
+    border-radius:10px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+ul li:hover{
+    transform:translateX(10px);
+}
+
+/* Button */
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 20px;
+    background:black;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+}
+
+.btn:hover{
+    opacity:0.8;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+    background:rgba(0,0,0,0.2);
+}
+
+/* ===== TEAM COLORS ===== */
+
+/* CSK */
+body.csk{
+    background: linear-gradient(135deg,#f9d423,#ffcc00);
+}
+
+/* MI */
+body.mi{
+    background: linear-gradient(135deg,#004ba0,#0072ff);
+}
+
+/* RCB */
+body.rcb{
+    background: linear-gradient(135deg,#8b0000,#ff0000);
+}
+
+/* KKR */
+body.kkr{
+    background: linear-gradient(135deg,#3b0a57,#6a0dad);
+}
+
+/* SRH */
+body.srh{
+    background: linear-gradient(135deg,#ff6600,#ff9900);
+}
+
+/* RR */
+body.rr{
+    background: linear-gradient(135deg,#ff69b4,#ff1493);
+}
+
+/* DC */
+body.dc{
+    background: linear-gradient(135deg,#003366,#007fff);
+}
+
+/* PBKS */
+body.pbks{
+    background: linear-gradient(135deg,#b30000,#ff3333);
+}
+
+/* GT */
+body.gt{
+    background: linear-gradient(135deg,#0f2027,#203a43);
+}
+
+/* LSG */
+body.lsg{
+    background: linear-gradient(135deg,#00c6ff,#0072ff);
+}
